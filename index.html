@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA Mountains</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+    <nav>
+        <img src="./assets/Logo.png" />
+        <ul>
+            <li><a href="#history-hash">0.1 HISTORY</a></li>
+            <li><a href="#climb-hash">0.2 TEAM</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <img src="./assets/Image.jpg" />
+    </div>
+
+    <main>
+
+
+    <div class="sticky">
+        <div>
+            <img src="./assets/Logo.png" />
+            <div>
+                <h3 style="color: gray">LOSANGELES</h3>
+                <h3>MOUNTAINS</h3>
+            </div>
+            
+        </div>
+        <ul>
+            <li><a href="#history-hash">0.1 HISTORY</a></li>
+            <li><a href="#climb-hash">0.2 TEAM</a></li>
+        </ul>
+    </div>
+
+    <section class="history">
+        <span id="history-hash"></span>
+        <div class="textContainer">
+            <div>
+                <h1>01.</h1>
+                <h3>HISTORY</h3>
+            </div>
+        </div>
+        <div class="imgHolder">
+            <img class="bgMountain" src="./assets/Bg.jpg" />
+        </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nulla rem rerum alias harum dolore at quas sint, doloremque, voluptatum sunt quia praesentium repellat non iste eaque dicta dolorum optio!</p>
+
+
+        <!-- I have used the carousel from Flickity
+        REFERENCE: https://flickity.metafizzy.co/
+        -->
+        <div class="carouselContainer">
+
+            <div class="carousel" data-flickity='{ "groupCells": true }'>
+                <div class="carousel-cell">
+                    <img class="carousel-cell-image" src="./assets/thumb1.jpg"/>
+                </div>
+                <div class="carousel-cell">
+                    <img class="carousel-cell-image" src="./assets//thumb2.jpg" />
+                </div>
+                <div class="carousel-cell">
+                    <img class="carousel-cell-image" src="./assets/thumb1.jpg" />
+                </div>
+                <div class="carousel-cell">
+                    <img class="carousel-cell-image" src="/assets//thumb2.jpg" />
+                </div>
+                <div class="carousel-cell">
+                    <img class="carousel-cell-image" src="./assets/thumb1.jpg" />
+                </div>
+                <div class="carousel-cell">
+                    <img class="carousel-cell-image" src="./assets//thumb2.jpg" />
+                </div>
+                <div class="carousel-cell">
+                    <img class="carousel-cell-image" src="./assets/thumb1.jpg" />
+                </div>
+                <div class="carousel-cell">
+                    <img class="carousel-cell-image" src="./assets//thumb2.jpg" />
+                </div>
+                <div class="carousel-cell">
+                    <img class="carousel-cell-image" src="./assets/thumb1.jpg" />
+                </div>
+                <div class="carousel-cell">
+                    <img class="carousel-cell-image" src="./assets//thumb2.jpg" />
+                </div>
+                <div class="carousel-cell">
+                    <img class="carousel-cell-image" src="/assets/thumb1.jpg" />
+                </div>
+                <div class="carousel-cell">
+                    <img class="carousel-cell-image" src="./assets//thumb2.jpg" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class='climb'>
+        <span id="climb-hash"></span>
+        <div class="textContainer">
+            <div>
+                <h1>02.</h1>
+                <h3>CLIMB</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore corrupti laboriosam ipsa veritatis facere. Veritatis ab quas, cupiditate facere illo velit aperiam voluptate delectus voluptatem deleniti amet, officiis sapiente odit.</p>
+        </div>
+
+        <div class="tabs">
+            <div class="tab tab1 active" aria-label="tab-1">
+                <p>MOUNTAIN 1</p>
+            </div>
+            <div class="tab tab2" aria-label="tab-2">
+                <p>MOUNTAIN 2</p>
+            </div>
+        </div>
+
+        <div class="tabImages">
+            <img src="./assets/bg3.jpg" />
+            <img class="tabImage" src="./assets/bg4.jpg" />
+
+            <div class="schedule">
+                <h1>SCHEDULE</h1>
+                <div class="calendar">
+                    <div class="dates dates1">
+                        <span>25 Nov 2016</span>
+                        <span>25 Nov 2016</span>
+                        <span>25 Nov 2016</span>
+                        <span>25 Nov 2016</span>
+                    </div>
+                    <div class="text text1">
+                        <span>Vestibulum viverra</span>
+                        <span>Vestibulum viverra</span>
+                        <span>Vestibulum viverra</span>
+                        <span>Vestibulum viverra</span>
+                    </div>
+
+                    <div class="dates dates2">
+                        <span>13 Dec 2016</span>
+                        <span>13 Dec 2016</span>
+                        <span>13 Dec 2016</span>
+                        <span>13 Dec 2016</span>
+                    </div>
+                    <div class="text text2">
+                        <span>Vestibulum viverra</span>
+                        <span>Vestibulum viverra</span>
+                        <span>Vestibulum viverra</span>
+                        <span>Vestibulum viverra</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- MOBILE ACCORDION -->
+
+        <div class="accordions">
+            <div class="accordion acc1">
+                <div class="labels">
+                    <p>MOUNTAIN 1</p>
+                    <p class="arrow">˅</p>
+                </div>
+
+                <div class="content">
+                    <div class="img">
+                        <img src="./assets/bg3.jpg" />
+                    </div>
+
+                        <div class="schedule">
+                            <h1>SCHEDULE</h1>
+                            <div class="calendar">
+                                <div class="dates dates1">
+                                    <span>25 Nov 2016</span>
+                                    <span>25 Nov 2016</span>
+                                    <span>25 Nov 2016</span>
+                                    <span>25 Nov 2016</span>
+                                </div>
+                                <div class="text text1">
+                                    <span>Vestibulum viverra</span>
+                                    <span>Vestibulum viverra</span>
+                                    <span>Vestibulum viverra</span>
+                                    <span>Vestibulum viverra</span>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="accordion acc2">
+                <div class="labels">
+                    <p>MOUNTAIN 2</p>
+                    <p class="arrow">˅</p>
+
+                </div>
+
+                <div class="content">
+                    <div class="img">
+                        <img src="./assets/bg4.jpg" />
+                    </div>
+                    <div class="schedule">
+                        <h1>SCHEDULE</h1>
+                        <div class="calendar">
+                            <div class="dates dates2">
+                                <span>25 Nov 2016</span>
+                                <span>25 Nov 2016</span>
+                                <span>25 Nov 2016</span>
+                                <span>25 Nov 2016</span>
+                            </div>
+                            <div class="text text2">
+                                <span>Vestibulum viverra</span>
+                                <span>Vestibulum viverra</span>
+                                <span>Vestibulum viverra</span>
+                                <span>Vestibulum viverra</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+    <footer>
+        <div>
+            <img src="./assets/Logo.png" />
+            <div>
+                <h3>LOSANGELES</h3>
+                <h3>MOUNTAINS</h3>
+            </div>
+        </div>
+        <p>COPYRIGHT 2016. ALL RIGHTS RESERVED</p>
+    </footer>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+The carousel I have used is from Flickity.
+https://flickity.metafizzy.co/
